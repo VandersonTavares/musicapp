@@ -1,5 +1,7 @@
 import React from 'react'
 
+import DownloadAds from './components/DownloadAds'
+
 function Hero() {
   return (
     <div className="wrapper bg-[#081730] flex items-center justify-between px-[5rem] rounded-b-[5rem] w-[100%] h-[35rem] relative">
@@ -14,6 +16,11 @@ function Hero() {
                 <br />
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             </span>
+            {/* download ads */}
+            <div>
+                <span className="text-[13px]">Download now on IOS and Android</span>
+                <DownloadAds/>
+            </div>
         </div>
         {/* right */}
         <div className="images">Images</div>
